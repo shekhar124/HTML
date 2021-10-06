@@ -1,0 +1,70 @@
+<!doctype html>
+<title>Example</title>
+<style>
+
+
+
+  * {
+    box-sizing: border-box; 
+  }
+  body {
+    display: flex;
+    min-height: 100vh;
+    flex-direction: row;
+    margin: 0;
+  }
+  .outer-col-1 {
+    background: #D7E8D4;
+    flex: 1;
+  }
+  .outer-col-2 {
+    display: flex;
+    flex-direction: column;
+    flex: 5;
+  }
+  .inner-row {
+    display: flex;
+    flex-direction: row;
+  }
+  .inner-col {
+    flex: 4;
+  }
+  .inner-row article {
+    min-height: 60vh;
+  }
+  .inner-row aside {
+    background: beige;
+    flex: 1;
+  }
+  header, footer {
+    background: yellowgreen;
+    height: 20vh;
+  }
+  header, footer, article, nav, aside {
+    padding: 1em;
+  }
+</style>
+<body>
+
+  <nav class="outer-col-1">Nav</nav>
+  <div class="outer-col-2">
+  	<header>Header</header>
+    <div class="inner-row">
+      <div class="inner-col">
+    	<article>Article</article>
+      <img src="/pix/samples/23m.jpg" alt="Sample photo">
+  <img src="/pix/samples/24m.jpg" alt="Sample photo">
+  <img src="/pix/samples/22m.jpg" alt="Sample photo">
+  <img src="/pix/samples/28m.jpg" alt="Sample photo">
+  <img src="/pix/samples/29m.jpg" alt="Sample photo">
+  <img src="/pix/samples/30m.jpg" alt="Sample photo">
+  <img src="/pix/samples/27m.jpg" alt="Sample photo">
+  <img src="/pix/samples/32m.jpg" alt="Sample photo">
+  <img src="/pix/samples/33m.jpg" alt="Sample photo">
+
+  		<footer>oopo</footer>
+      </div>
+    	<aside>Aside</aside>
+    </div>
+  </div>
+</body>
